@@ -11,10 +11,10 @@ const Navbar = () => {
      </div>
      <div className='nav_part2'>
       
-        <Link className='link' to={'/mens'}> mens</Link>
-        <Link className='link' to={'/womens'}> womens</Link>
-        <Link className='link' to={'/jeweleri'}>jeweleri</Link>
-        <Link className='link' to={'/electronic'}>electronics</Link>
+        <Link className='link' to={'/mens'}> Mens</Link>
+        <Link className='link' to={'/womens'}> Womens</Link>
+        <Link className='link' to={'/jeweleri'}>Jewellery</Link>
+        <Link className='link' to={'/electronic'}>Electronics</Link>
       
      </div>
      <div className='nav_part3'>
