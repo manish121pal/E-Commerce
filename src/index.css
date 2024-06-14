@@ -1,0 +1,459 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  /* border: 1px solid red; */
+}
+
+.navbar-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  border:1px solid black;
+  
+}
+.nav-logo-img{
+  width: 100px;
+  height:40px ;
+}
+.nav_part1{
+  padding: 10px;
+  cursor: pointer;
+}
+.nav_part2 {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  text-decoration: none;
+  list-style: none;
+
+}
+ .link{
+  padding: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover{
+  text-decoration-color: crimson;
+  cursor: pointer;
+  text-decoration-line:underline;
+}
+.nav_part3{
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+ position: relative; 
+ padding: 10px;
+}
+.pro-quantity{
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+  font-size: 15px;
+  border-radius: 100%;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+}
+.pro-quantity p{
+  position: absolute;
+  color: #000;
+  bottom: 1px;
+}
+.btn-register{
+  width: 80px;
+  height: 30px;
+  margin-inline: 5px;
+  background-color: aqua;
+  border-radius:20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.btn-login{
+  width: 80px;
+  height: 30px;
+  margin-inline: 5px;
+  background-color: yellow;
+  border-radius:20px;
+  cursor: pointer;
+  font-size: 15px;
+  
+}
+.btn-logout{
+  width: 80px;
+  height: 30px;
+  margin-inline: 5px;
+  background-color: red;
+  border-radius:20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.card-icon{
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.app-container{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/* productcard css */
+.product-container{
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+.pro-img{
+  width: 240px;
+  height: 250px;
+  height: auto;
+  padding-left: 10px;
+}
+.pro-img img{
+  width: 220px;
+  height:240px ;
+   padding: 8px;
+  padding-left: 5px;
+}
+.pro-text-part{
+  padding: 10px;
+  height: 153px;
+  background-color: gray;
+  border-radius: 0px 0px 20px 20px;
+  
+}
+.pro-text-part h3{
+font-size: 1rem;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.pro-btn2{
+  width: 100%;
+  height: 30px;
+  background-color:yellow;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+  padding: 2px;
+  box-shadow: 2px;
+  cursor: pointer;
+}
+
+
+.pro-btn{
+  padding-top: 15px;
+  /* padding-bottom: 5px; */
+}
+
+/* home css */
+.home-container{
+  width: 100%;
+  height: 100vh;
+  
+}
+.loader{
+  color: red;
+  text-align: center;
+  text-decoration: solid;
+}
+.home-text{
+  text-align: center;
+  margin-top: 0px;
+  background-color: antiquewhite;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  gap: 5px;
+  grid-row: auto;
+  row-gap: 20px;
+  padding: 10px;
+}
+.home-grid-container{
+
+}
+
+/* mens css */
+.mens-container{
+  width: 100%;
+  height: 100vh;
+}
+.mens-text{
+  text-align: center;
+  padding: 5px;
+  text-transform: capitalize;
+  background-color: antiquewhite;
+}
+.mens-product{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row: auto;
+  gap: 10px;
+  row-gap: 20px;
+  padding-top: 10px;
+}
+
+/* women css */
+.womens-container{
+  width: 100%;
+  height: 100vh;
+}
+.womens-text{
+  text-align: center;
+  padding: 5px;
+  text-transform: capitalize;
+  background-color: antiquewhite;
+}
+.womens-product{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row: auto;
+  gap: 10px;
+  row-gap: 20px;
+  padding-top: 10px;
+}
+
+/* jeweleri item css */
+.jeweleri-container{
+  width: 100%;
+  height: 100vh;
+}
+
+.jeweleri-text{
+  text-align: center;
+  padding: 5px;
+  text-transform: capitalize;
+  background-color: antiquewhite;
+}
+.jeweleri-product{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row: auto;
+  gap: 10px;
+  row-gap: 20px;
+  padding-top: 10px;
+}
+
+/* electronic css */
+
+.electronic-container{
+  width: 100%;
+  height: 100vh;
+
+}
+
+.electronic-text{
+  text-align: center;
+  padding: 5px;
+  text-transform: capitalize;
+  background-color: antiquewhite;
+
+}
+
+.electronic-product{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row: auto;
+  gap: 10px;
+  row-gap: 20px;
+  padding-top: 10px;
+}
+
+
+/* add to cart css */
+.add-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid black; */
+  /* position: absolute; */
+}
+.add-box1-container{
+  width: 900px;
+  height: 260px;
+  /* box-shadow: 3px 3px 3px 3px gray; */
+  
+}
+.add-box1{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 100%;
+  height: 100%;
+   /* border: 1px solid red;  */
+   box-shadow: .1px .1px 1px 1px gray;
+   margin: 15px;
+
+}
+.add-box1-img{
+  width: 20%;
+  height: 90%;
+  padding-top: 10px;
+  /* border: 1px solid red; */
+}
+.add-box1-img img{
+  width: 150px;
+  height: 150px;
+  padding: 10px 0px 5px 15px;
+  
+}
+.add-box1-text{
+  width: 70%;
+  box-shadow: 1px 1px 1px 1px gray;
+  height: 90%;
+  padding: 5px;
+}
+.add-text-heading h3 {
+  word-wrap: break-word;
+  /* color: brown; */
+  /* border: 1px solid black; */
+  padding: 5px;
+  font-size: 20px;
+}
+.add-quantity{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 15px 0px;
+}
+
+.qua-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qua-btn1{
+  border-radius:100%;
+  font-size: 30px;
+  padding: 0px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px gray;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color:orange;
+}
+.qua-btn2{
+  border-radius:100%;
+  font-size: 30px;
+  padding: 0px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px gray;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+}
+.qua-btn h6{
+  border-radius:100%;
+  font-size: 20px;
+  padding: 5px 0px 5px 15px;
+  /* padding-left: 5px; */
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px gray;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color:rgb(233, 152, 164);
+}
+.add-price{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+  margin: -10px;
+}
+.price-text{
+  background-color:cadetblue;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-left: 15px;
+  width: 160px;
+  height: 35px;
+  border-radius: 20px;
+}
+.add-price-btn{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  margin-top: 10px;
+}
+.add-price-btn .btn1{
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: orange;
+  border: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.add-price-btn .btn2{
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(5, 5, 5);
+  border: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.add-box2{
+  width: 400px;
+  height: 400px;
+  /* border: 1px solid red; */
+  box-shadow:1px 1px 1px 1px gray;
+  /* position: fixed; */
+}
+.add-box2-heading{
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.add-box3{
+  width:100%;
+  height: 100%;
+}
+.add-box4{
+  display: flex;
+  align-items: center;
+  justify-content:space-around ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.add-box3 button{
+  width: 350px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
