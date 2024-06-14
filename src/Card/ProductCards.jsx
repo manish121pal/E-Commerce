@@ -20,7 +20,7 @@ const handelChange=(cartitem)=>{
       </div>
       <h5>rating :{item.rating.rate}</h5>
       <h6>count :{item.rating.count}</h6>
-      <p>price :{item.price} <FaIndianRupeeSign/></p>
+      <p>price : <FaIndianRupeeSign/> {item.price}</p>
       <div className='pro-btn'>
       <button className='pro-btn2' onClick={()=>handelChange(item)}>Add to Cart</button>
       </div>
